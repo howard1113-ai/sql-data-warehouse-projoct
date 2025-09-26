@@ -59,7 +59,7 @@ It follows a structured ETL (Extract, Transform, Load) approach, Git-based versi
 
 The project follows a **Bronze → Silver → Gold** layered architecture.
 
-![Data Architecture](docs/Data Architecture.drawio.png)
+[Data Architecture](docs/Data Architecture.drawio.png)
 
 ### 🔹 Git Repository Structure
 
