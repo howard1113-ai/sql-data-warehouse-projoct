@@ -53,7 +53,13 @@ It follows a structured ETL (Extract, Transform, Load) approach, Git-based versi
 - **Columns**:  
   - Surrogate keys → `table_name_key` (e.g., `customer_key`).  
   - Metadata → prefix `dw_` (e.g., `dw_load_date`).  
-- **Procedures**: `load_<layer>` (e.g., `load_bronze_sales`).  
+- **Procedures**: `load_<layer>` (e.g., `load_bronze_sales`).
+
+## 📊 Data Architecture
+
+The project follows a **Bronze → Silver → Gold** layered architecture.
+
+![Data Architecture](docs/Data Architecture.drawio.png)
 
 ### 🔹 Git Repository Structure
 
